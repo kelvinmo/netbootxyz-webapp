@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'Dockerfile'
+      - 'entrypoint.sh'
+      - '.github/workflows/docker.yml'
     branches:
       - master
   workflow_dispatch:
